@@ -459,3 +459,104 @@
 [NSA 2.0 2014-11-29 21:36:24] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
 [NSA 2.0 2014-11-29 21:38:27] DEBUG: SteamKit2.SteamFriends+ClanStateCallback
 [NSA 2.0 2014-11-29 21:41:24] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
+[NSA 2.0 2014-11-29 22:31:56] DEBUG: Initializing Steam Bot...
+[NSA 2.0 2014-11-29 22:31:56] INFO: Connecting...
+[NSA 2.0 2014-11-29 22:31:56] DEBUG: Done Loading Bot!
+[NSA 2.0 2014-11-29 22:31:56] DEBUG: SteamKit2.SteamClient+ConnectedCallback
+[NSA 2.0 2014-11-29 22:31:56] DEBUG: Connection Callback: OK
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: SteamKit2.SteamUser+LoggedOnCallback
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: Logged On Callback: OK
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: SteamKit2.SteamUser+AccountInfoCallback
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: SteamKit2.SteamUser+AccountInfoCallback
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: SteamKit2.SteamApps+VACStatusCallback
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: SteamKit2.SteamFriends+FriendsListCallback
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: SteamKit2.SteamApps+LicenseListCallback
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: SteamKit2.SteamApps+GuestPassListCallback
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: SteamKit2.SteamUser+WalletInfoCallback
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: SteamKit2.SteamApps+GameConnectTokensCallback
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: SteamKit2.SteamClient+CMListCallback
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: SteamKit2.SteamClient+ServerListCallback
+[NSA 2.0 2014-11-29 22:31:57] DEBUG: SteamKit2.SteamClient+ServerListCallback
+[NSA 2.0 2014-11-29 22:31:58] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:31:58] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:31:58] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:31:58] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:31:59] DEBUG: SteamKit2.SteamUser+LoginKeyCallback
+[NSA 2.0 2014-11-29 22:33:39] WARN: Authentication failed, retrying in 2s...
+[NSA 2.0 2014-11-29 22:34:23] SUCCESS: User Authenticated!
+[NSA 2.0 2014-11-29 22:34:24] INFO: Downloading Schema...
+[NSA 2.0 2014-11-29 22:34:24] SUCCESS: Schema Downloaded!
+[NSA 2.0 2014-11-29 22:34:24] SUCCESS: Steam Bot Logged In Completely!
+[NSA 2.0 2014-11-29 22:34:24] DEBUG: SteamKit2.SteamUser+MarketingMessageCallback
+[NSA 2.0 2014-11-29 22:34:25] DEBUG: SteamKit2.SteamUser+AccountInfoCallback
+[NSA 2.0 2014-11-29 22:34:25] DEBUG: SteamKit2.SteamUser+AccountInfoCallback
+[NSA 2.0 2014-11-29 22:34:25] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:34:25] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:34:25] DEBUG: SteamKit2.SteamFriends+ClanStateCallback
+[NSA 2.0 2014-11-29 22:34:25] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:34:25] DEBUG: SteamKit2.SteamFriends+ClanStateCallback
+[NSA 2.0 2014-11-29 22:34:25] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:34:25] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:34:25] DEBUG: SteamKit2.SteamFriends+ChatEnterCallback
+[NSA 2.0 2014-11-29 22:34:35] DEBUG: SteamKit2.SteamFriends+ChatMsgCallback
+[NSA 2.0 2014-11-29 22:34:35] WARN: coolresult
+[NSA 2.0 2014-11-29 22:34:49] DEBUG: Initializing Steam Bot...
+[NSA 2.0 2014-11-29 22:34:49] INFO: Connecting...
+[NSA 2.0 2014-11-29 22:34:49] DEBUG: Done Loading Bot!
+[NSA 2.0 2014-11-29 22:34:50] DEBUG: SteamKit2.SteamClient+ConnectedCallback
+[NSA 2.0 2014-11-29 22:34:50] DEBUG: Connection Callback: OK
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamUser+LoggedOnCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: Logged On Callback: OK
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamUser+AccountInfoCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamUser+AccountInfoCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamApps+VACStatusCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamFriends+FriendsListCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamApps+LicenseListCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamApps+GuestPassListCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamUser+WalletInfoCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamApps+GameConnectTokensCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamClient+CMListCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamClient+ServerListCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamClient+ServerListCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:34:51] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:34:52] DEBUG: SteamKit2.SteamUser+LoginKeyCallback
+[NSA 2.0 2014-11-29 22:35:00] SUCCESS: User Authenticated!
+[NSA 2.0 2014-11-29 22:35:00] INFO: Downloading Schema...
+[NSA 2.0 2014-11-29 22:35:01] SUCCESS: Schema Downloaded!
+[NSA 2.0 2014-11-29 22:35:01] SUCCESS: Steam Bot Logged In Completely!
+[NSA 2.0 2014-11-29 22:35:01] DEBUG: SteamKit2.SteamUser+MarketingMessageCallback
+[NSA 2.0 2014-11-29 22:35:01] DEBUG: SteamKit2.SteamUser+AccountInfoCallback
+[NSA 2.0 2014-11-29 22:35:01] DEBUG: SteamKit2.SteamUser+AccountInfoCallback
+[NSA 2.0 2014-11-29 22:35:01] DEBUG: SteamKit2.SteamFriends+ClanStateCallback
+[NSA 2.0 2014-11-29 22:35:01] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:35:01] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:35:01] DEBUG: SteamKit2.SteamFriends+ChatEnterCallback
+[NSA 2.0 2014-11-29 22:35:01] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:35:01] DEBUG: SteamKit2.SteamFriends+ClanStateCallback
+[NSA 2.0 2014-11-29 22:35:01] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:35:01] DEBUG: SteamKit2.SteamFriends+PersonaStateCallback
+[NSA 2.0 2014-11-29 22:35:03] DEBUG: SteamKit2.SteamFriends+ChatMsgCallback
+[NSA 2.0 2014-11-29 22:35:03] WARN: https://www.youtube.com/watch?v=EC6JIUj7sZM
+[NSA 2.0 2014-11-29 22:38:10] DEBUG: SteamKit2.SteamFriends+ClanStateCallback
+[NSA 2.0 2014-11-29 22:39:50] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
+[NSA 2.0 2014-11-29 22:44:50] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
+[NSA 2.0 2014-11-29 22:45:58] DEBUG: SteamKit2.SteamFriends+ClanStateCallback
+[NSA 2.0 2014-11-29 22:49:50] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
+[NSA 2.0 2014-11-29 22:51:05] DEBUG: SteamKit2.SteamFriends+ClanStateCallback
+[NSA 2.0 2014-11-29 22:53:35] DEBUG: SteamKit2.SteamUser+MarketingMessageCallback
+[NSA 2.0 2014-11-29 22:54:50] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
+[NSA 2.0 2014-11-29 22:59:50] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
+[NSA 2.0 2014-11-29 23:00:10] DEBUG: SteamKit2.SteamFriends+ClanStateCallback
+[NSA 2.0 2014-11-29 23:04:50] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
+[NSA 2.0 2014-11-29 23:07:41] DEBUG: SteamKit2.SteamFriends+ClanStateCallback
+[NSA 2.0 2014-11-29 23:09:50] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
+[NSA 2.0 2014-11-29 23:14:50] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
+[NSA 2.0 2014-11-29 23:15:03] DEBUG: SteamKit2.SteamFriends+ClanStateCallback
+[NSA 2.0 2014-11-29 23:19:50] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
+[NSA 2.0 2014-11-29 23:24:50] DEBUG: SteamKit2.SteamUser+SessionTokenCallback
+[NSA 2.0 2014-11-29 23:24:51] DEBUG: SteamKit2.SteamFriends+ClanStateCallback

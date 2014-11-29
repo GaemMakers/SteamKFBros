@@ -13,9 +13,15 @@ using SteamKit2;
 using SteamTrade;
 using SteamKit2.Internal;
 using SteamTrade.TradeOffer;
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Services;
+using Google.Apis.Upload;
+using Google.Apis.Util.Store;
+using Google.Apis.YouTube.v3;
+using Google.Apis.YouTube.v3.Data;
 
 namespace SteamBot
-{
+{   
     public class Bot
     {
         public string BotControlClass;
@@ -533,11 +539,31 @@ namespace SteamBot
             #region Group Chat //Begin KFBros stuff
             msg.Handle<SteamFriends.ChatMsgCallback>(callback =>
             {
+                string a = "hi";
+
                 GetUserHandler(callback.ChatterID).OnChatRoomMessage(callback.ChatRoomID, callback.ChatterID, callback.Message);
 
                 if (callback.Message == "hi")
                 {
                     SteamFriends.SendChatRoomMessage(callback.ChatRoomID, EChatEntryType.ChatMsg, "hi");
+                }
+
+                if (callback.Message.Contains("v="))
+                {
+                    string coolresult;
+                    string[] result = callback.Message.Split(' ');
+
+                    for (int i = 0; i < result.Length; ++i)
+                    {
+                        if (result[i].Contains("v="))
+                        {
+                            coolresult = result[i];
+                            log.Warn(coolresult);
+                        }
+                    }
+
+                   GET 
+
                 }
 
              

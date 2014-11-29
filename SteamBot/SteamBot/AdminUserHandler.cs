@@ -2,6 +2,10 @@
 using SteamKit2;
 using SteamTrade;
 using System.Collections.Generic;
+using System.Text; //include this and the below stuff to get youtube URLs
+using System.Net;
+using System.IO;
+using 
 
 namespace SteamBot
 {
