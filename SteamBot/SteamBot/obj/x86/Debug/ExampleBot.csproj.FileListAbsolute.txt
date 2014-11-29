@@ -1,0 +1,6 @@
+C:\Users\Razor Shultz\Documents\GitHub\Steambot\SteamBot\Bin\Debug\SteamBot.exe.config
+C:\Users\Razor Shultz\Documents\GitHub\Steambot\SteamBot\Bin\Debug\SteamBot.exe
+C:\Users\Razor Shultz\Documents\GitHub\Steambot\SteamBot\Bin\Debug\SteamBot.pdb
+C:\Users\Razor Shultz\Documents\GitHub\Steambot\SteamBot\SteamBot\obj\x86\Debug\ExampleBot.csprojResolveAssemblyReference.cache
+C:\Users\Razor Shultz\Documents\GitHub\Steambot\SteamBot\SteamBot\obj\x86\Debug\SteamBot.exe
+C:\Users\Razor Shultz\Documents\GitHub\Steambot\SteamBot\SteamBot\obj\x86\Debug\SteamBot.pdb
