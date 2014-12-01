@@ -33,3 +33,14 @@ C:\Users\Razor Shultz\Documents\GitHub\SteamKFBros\SteamBot\SteamTrade\bin\Relea
 C:\Users\Razor Shultz\Documents\GitHub\SteamKFBros\SteamBot\SteamTrade\obj\Release\SteamTrade.csprojResolveAssemblyReference.cache
 C:\Users\Razor Shultz\Documents\GitHub\SteamKFBros\SteamBot\SteamTrade\obj\Release\SteamTrade.dll
 C:\Users\Razor Shultz\Documents\GitHub\SteamKFBros\SteamBot\SteamTrade\obj\Release\SteamTrade.pdb
+C:\Users\Andy\Desktop\SteamKFBros\trunk\SteamBot\SteamTrade\bin\Release\SteamTrade.dll
+C:\Users\Andy\Desktop\SteamKFBros\trunk\SteamBot\SteamTrade\bin\Release\SteamTrade.pdb
+C:\Users\Andy\Desktop\SteamKFBros\trunk\SteamBot\SteamTrade\bin\Release\Newtonsoft.Json.dll
+C:\Users\Andy\Desktop\SteamKFBros\trunk\SteamBot\SteamTrade\bin\Release\protobuf-net.dll
+C:\Users\Andy\Desktop\SteamKFBros\trunk\SteamBot\SteamTrade\bin\Release\SteamKit2.dll
+C:\Users\Andy\Desktop\SteamKFBros\trunk\SteamBot\SteamTrade\bin\Release\Newtonsoft.Json.xml
+C:\Users\Andy\Desktop\SteamKFBros\trunk\SteamBot\SteamTrade\bin\Release\protobuf-net.pdb
+C:\Users\Andy\Desktop\SteamKFBros\trunk\SteamBot\SteamTrade\bin\Release\protobuf-net.xml
+C:\Users\Andy\Desktop\SteamKFBros\trunk\SteamBot\SteamTrade\bin\Release\SteamKit2.xml
+C:\Users\Andy\Desktop\SteamKFBros\trunk\SteamBot\SteamTrade\obj\Release\SteamTrade.dll
+C:\Users\Andy\Desktop\SteamKFBros\trunk\SteamBot\SteamTrade\obj\Release\SteamTrade.pdb

@@ -6,8 +6,6 @@ using System.Text; //include this and the below stuff to get youtube URLs
 using System.Net;
 using System.IO;
 
-
-
 namespace SteamBot
 {
     /// <summary>
@@ -181,13 +179,8 @@ namespace SteamBot
         public virtual void OnChatRoomMessage(SteamID chatID, SteamID sender, string message)
         {
 
-        {
         }
-        }
-        
-
-     
-        
+   
         private void ProcessTradeMessage(string message)
         {
             if (message.Equals(HelpCmd))

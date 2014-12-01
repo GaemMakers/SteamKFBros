@@ -19,16 +19,16 @@ using Google.Apis.Upload;
 using Google.Apis.Util.Store;
 using Google.Apis.YouTube.v3;
 using Google.Apis.YouTube.v3.Data;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
 
 namespace SteamBot
 {   
     public class Bot
     {
-
-        private string youtubeURL = "https://www.googleapis.com/youtube/v3/videos?key=AIzaSyCHjQ8RI86_xSomuon-9zmImy3fY8Hp9TY&part=snippet&id=";
+        YouTubeService youtubeService = new YouTubeService(new BaseClientService.Initializer()
+        {
+            ApiKey = "AIzaSyBabJatcd0aglkUXbos2b6YdcL2OdJ_XYk",
+            ApplicationName = "SteamKFBrosBot"
+        });
 
         public string BotControlClass;
         // If the bot is logged in fully or not.  This is only set
@@ -542,32 +542,19 @@ namespace SteamBot
             });
             #endregion
 
-            #region Group Chat //Begin KFBros stuff
+            #region Group Chat 
+            //Begin KFBros stuff
             msg.Handle<SteamFriends.ChatMsgCallback>(callback =>
             {
-                string a = "hi";
-
                 GetUserHandler(callback.ChatterID).OnChatRoomMessage(callback.ChatRoomID, callback.ChatterID, callback.Message);
 
                 if (callback.Message == "hi")
                 {
-                    
-
-                    for (int i = 0; i < Admins.Length; ++i)
-                    {
-                        if (callback.ChatterID == Admins[i])
-                        {
-                            SteamFriends.SendChatRoomMessage(callback.ChatRoomID, EChatEntryType.ChatMsg, "hi admin");
-                        }
-                        else
-                        {
-                            SteamFriends.SendChatRoomMessage(callback.ChatRoomID, EChatEntryType.ChatMsg, "hi");
-                        }
-                    }
+                    SteamFriends.SendChatRoomMessage(callback.ChatRoomID, EChatEntryType.ChatMsg, "hi");
                 }
 
                 if (callback.Message.Contains("v="))
-                {   string youtubeAPIresponse;
+                {
                     string coolresult;
                     string[] result = callback.Message.Split(' ');
 
@@ -576,31 +563,25 @@ namespace SteamBot
                         if (result[i].Contains("v="))
                         {
                             coolresult = result[i];
-                            log.Warn(coolresult);
+                            log.Warn(coolresult.Substring(coolresult.IndexOf("v=") + 2));
 
+                            string url = "https://www.googleapis.com/youtube/v3/videos?part=snippet&id=" + coolresult.Substring(coolresult.IndexOf("v=") + 2) +"&key=" + youtubeService.ApiKey;
 
-                            youtubeURL += "AI6fz8pi6dg";
+                            WebRequest request = HttpWebRequest.Create(url);
+                            WebResponse response = request.GetResponse();
+                            StreamReader reader = new StreamReader(response.GetResponseStream());
 
+                            string urlText = reader.ReadToEnd();
+
+                            string final = "Youtube: " + urlText.Substring(urlText.IndexOf("\"title\": ") + 9, (urlText.IndexOf("\"description\":") - 6) - (urlText.IndexOf("\"title\": ") + 9));
                             
+                            log.Success(final);
 
-                            using (WebClient client = new WebClient())
-                            {
-                                youtubeAPIresponse = client.DownloadString(youtubeURL);
-                                log.Warn(youtubeURL); 
-                            }
-
-                            string youtubeFinal = JsonConvert.SerializeObject(youtubeAPIresponse, Formatting.None);
-                            log.Warn(youtubeFinal);
-                            
+                            if(final.Length > 9)
+                                SteamFriends.SendChatRoomMessage(callback.ChatRoomID, EChatEntryType.ChatMsg, final);
                         }
                     }
-
-                    
-
                 }
-
-             
-
             });
                 
                 //handle bot being kicked and other type of chat member state messages

@@ -2461,12 +2461,18 @@
         <member name="P:Google.Apis.YouTube.v3.Data.VideoGetRatingResponse.ETag">
             <summary>Etag of this resource.</summary>
         </member>
+        <member name="P:Google.Apis.YouTube.v3.Data.VideoGetRatingResponse.EventId">
+            <summary>Serialized EventId of the request which produced this response.</summary>
+        </member>
         <member name="P:Google.Apis.YouTube.v3.Data.VideoGetRatingResponse.Items">
             <summary>A list of ratings that match the request criteria.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.Data.VideoGetRatingResponse.Kind">
             <summary>Identifies what kind of resource this is. Value: the fixed string
             "youtube#videoGetRatingResponse".</summary>
+        </member>
+        <member name="P:Google.Apis.YouTube.v3.Data.VideoGetRatingResponse.VisitorId">
+            <summary>The visitorId identifies the visitor.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.Data.VideoListResponse.ETag">
             <summary>Etag of this resource.</summary>
