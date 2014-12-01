@@ -10,3 +10,4 @@ C:\Users\Razor Shultz\Documents\GitHub\SteamKFBros\SteamBot\Bin\Release\SteamBot
 C:\Users\Razor Shultz\Documents\GitHub\SteamKFBros\SteamBot\SteamBot\obj\x86\Release\SteamBot.exe
 C:\Users\Razor Shultz\Documents\GitHub\SteamKFBros\SteamBot\Bin\Release\SteamBot.exe
 C:\Users\Razor Shultz\Documents\GitHub\SteamKFBros\SteamBot\SteamBot\obj\x86\Release\ExampleBot.csprojResolveAssemblyReference.cache
+C:\Users\Razor Shultz\Documents\GitHub\SteamKFBros\SteamBot\SteamBot\obj\x86\Release\ExampleBot.csproj.App.config
